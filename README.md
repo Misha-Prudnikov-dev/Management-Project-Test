@@ -9,7 +9,7 @@
 * Liquibase
 # Application endpoints
 ##### Request root `http://localhost:8080/api`
-* View all users `/users` (Method Get)
+* View all users `/users/offset={number of page}` (Method Get)
 * Add user `/users/add`, example : 
 `{
     "name": "Bee",
