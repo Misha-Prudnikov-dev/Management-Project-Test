@@ -6,12 +6,10 @@
 * Hibernate
 * Log4j2
 * MySQL
+* Liquibase
 # Application endpoints
 ##### Request root `http://localhost:8080/api`
 * View all users `/users` (Method Get)
-* View find user by id `/users/{userId}` (Method Get)
-* View find user by email `/users/email/{userEmail}`(Method Get)
-* View all roles `/users/roles` (Method Get)
 * Add user `/users/add`, example : 
 `{
     "name": "Bee",
